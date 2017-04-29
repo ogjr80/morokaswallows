@@ -1,3 +1,17 @@
+##### Author by Gideon Ogongo ##### 
+#checking the remote origin for your repo 
+#Run the following commands to check what your remote origin is 
+
+git remote -v 
+---origin git@github.com:username/repository.git (fetch)
+---origin git@github.com:username/repository.git (push)
+#Changing the remote origin to new one 
+#run the following command to change your remote origin 
+git remote set-url origin https://github.com/username/repository.git 
+
+
+
+<!--
 # Angular QuickStart Source
 [![Build Status][travis-badge]][travis-badge-url]
 
@@ -184,4 +198,4 @@ which is easier to read; this file is excluded from source control.
 Shut it down manually with `Ctrl-C`.
 
 [travis-badge]: https://travis-ci.org/angular/quickstart.svg?branch=master
-[travis-badge-url]: https://travis-ci.org/angular/quickstart
+[travis-badge-url]: https://travis-ci.org/angular/quickstart-->
